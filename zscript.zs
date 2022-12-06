@@ -39,7 +39,7 @@ class GripHandle : EventHandler {
         progress = 0.0;
     }
 
-    override void WorldLoaded() {
+    override void WorldLoaded(WorldEvent e) {
         progress = 0.0;
         combo = 0;
         timer = 0.0;
